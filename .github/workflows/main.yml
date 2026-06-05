@@ -1,4 +1,4 @@
-name: schedule jobs:
+name: schedule jobs
 
 on:
   schedule:
@@ -6,9 +6,9 @@ on:
 
 jobs:
   run-script: 
-      run-on: ubuntu-letest
+    run-on: ubuntu-latest
 
-      steps: 
-        - name: print message
-        run: echo "schedule worflow excuted"
+    steps: 
+      - name: print message
+       run: echo "schedule worflow excuted"
   
