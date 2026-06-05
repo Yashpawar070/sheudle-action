@@ -1,0 +1,14 @@
+name: schedule jobs:
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  run-script: 
+      run-on: ubuntu-letest
+
+      steps: 
+        - name: print message
+        run: echo "schedule worflow excuted"
+  
