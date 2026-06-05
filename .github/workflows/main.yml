@@ -6,9 +6,9 @@ on:
 
 jobs:
   run-script: 
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps: 
+   steps: 
       - name: print message
        run: echo "schedule worflow excuted"
   
